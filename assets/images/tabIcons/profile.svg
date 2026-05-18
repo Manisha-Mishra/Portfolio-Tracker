@@ -1,0 +1,13 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bars -->
+  <rect x="4" y="13" width="3" height="7" rx="1.5" fill="#3DFF7A"/>
+  <rect x="10" y="10" width="3" height="10" rx="1.5" fill="#3DFF7A"/>
+  <rect x="16" y="7" width="3" height="13" rx="1.5" fill="#3DFF7A"/>
+
+  <!-- Soft upward arrow -->
+  <path d="M4 13 L10 10 L16 7 L20 5"
+        stroke="#00E0FF"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+</svg>
