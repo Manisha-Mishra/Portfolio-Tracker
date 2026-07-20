@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Portfolio Tracker",
+    "name": "Portfolio tracker",
     "slug": "myPortfolioTracker",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -8,16 +8,13 @@
     "scheme": "myportfoliotracker",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": "./assets/images/portfolio-logo.png",
+      "bundleIdentifier": "com.anonymous.myPortfolioTracker"
     },
-    "android": {
-      "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
-      },
-      "predictiveBackGestureEnabled": false
+    "splash": {
+      "image": "./assets/images/portfolio-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
     },
     "web": {
       "output": "static",
@@ -28,17 +25,26 @@
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#208AEF",
-          "android": {
-            "image": "./assets/images/splash-icon.png",
-            "imageWidth": 76
+          "backgroundColor": "#000000",
+          "image": "./assets/images/portfolio-logo.png",
+          "imageWidth": 120,
+          "resizeMode": "contain",
+          "dark": {
+            "image": "./assets/images/portfolio-logo-dark.png",
+            "backgroundColor": "#000000"
           }
         }
-      ]
+      ],
+      "expo-font",
+      "expo-image",
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "android": {
+      "package": "com.anonymous.myPortfolioTracker"
     }
   }
 }
